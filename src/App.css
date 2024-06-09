@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header {
+  /* background-color: rgb(1, 1, 41); */
+  background-image: linear-gradient(
+    to right,
+    rgb(18, 18, 91),
+    rgb(18, 18, 91),
+    rgb(119, 119, 221)
+  );
+  height: 150px;
+  padding: 20px;
+  color: rgb(252, 173, 2);
+}
+
+.App-title {
+  font-size: medium;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navbar {
+  margin-top: auto;
+}
+#top-filler {
+  margin-bottom: auto;
+}
+
+#nav-container {
+  align-items: flex-end;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.passpic {
+  height: 500px;
+  /* float: left; */
+  /* margin-left: 5px; */
+  margin-top: 100px;
+}
+
+.introtext {
+  font-weight: bolder;
+  color: #000;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1rem;
+}
+.apply {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  padding: 5px 5px 10px 5px;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    rgb(18, 18, 91),
+    rgb(119, 119, 221)
+  );
+  font-size: large;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+}
+.foot {
+  height: 150px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(18, 18, 91),
+    rgb(119, 119, 221)
+  );
+  color: #fff;
+  padding-top: 60px;
+}
+.navbar-section {
+  float: right;
+}
+#gradiant {
+  background-image: linear-gradient(
+    to right,
+    rgb(18, 18, 91),
+    rgb(119, 119, 221)
+  );
+  border-radius: 5px;
+}
+.SignupForm {
+  margin-top: 150px;
+}
+.LoginForm {
+  margin-top: 150px;
+}
+.formungo {
+  text-align: start;
+}
+.fill {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(18, 18, 91);
+}
+.formtab {
+  /* margin-left: 40%; */
+  margin-bottom: 50px;
+  background-image: linear-gradient(45deg, dodgerblue, white, pink);
+  height: 80%;
+}
+.takkunu {
+  margin-top: 30px;
+  margin-left: 45%;
+  width: 200px;
+  height: auto;
+  margin-bottom: 100px;
+  color: #fff;
+  background-color: rgb(46, 116, 208);
+  border: 0.5px solid white;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+
+  /* margin-top: px;
+  margin-left: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(18, 18, 91),
+    rgb(119, 119, 221)
+  );
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 1px;
+  height: 50px;
+  width: 250px;
+  margin-bottom: 100px;
+  margin-left: 42%;
+  padding: 20px 20px 20px 20px;
+  text-align: center; */
+}
+.labelungo {
+  width: 200px;
+  display: inline-block;
+  margin-left: 35%;
+  color: #000;
+}
+input {
+  margin-left: 40%;
+  width: 300px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+.peru {
+  margin-top: 5%;
+}
